@@ -1,0 +1,43 @@
+{
+    "feedback_levels": {
+        "2": {
+            "description": "非常熟悉",
+            "criteria": "能准确理解和使用这个单词，包括其各种含义和用法",
+            "color": "GREEN"
+        },
+        "1": {
+            "description": "熟悉",
+            "criteria": "知道单词的主要含义，但可能对某些用法不太确定",
+            "color": "CYAN"
+        },
+        "0": {
+            "description": "模糊",
+            "criteria": "对单词有印象，但不确定具体含义",
+            "color": "YELLOW"
+        },
+        "-1": {
+            "description": "不熟悉",
+            "criteria": "见过这个单词，但记不清其含义",
+            "color": "RED"
+        },
+        "-2": {
+            "description": "完全不知道",
+            "criteria": "从未见过或完全不记得这个单词",
+            "color": "MAGENTA"
+        }
+    },
+    "special_actions": {
+        "skip": {
+            "description": "跳过",
+            "color": "BLUE"
+        },
+        "quit": {
+            "description": "退出",
+            "color": "WHITE"
+        },
+        "example": {
+            "description": "查看例句",
+            "color": "CYAN"
+        }
+    }
+}
